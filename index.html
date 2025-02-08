@@ -1,0 +1,253 @@
+!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Du lịch bãi biển</title>
+    <style>
+ body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    background-color: #f0f8ff; 
+}
+
+header {
+    background: url('https://mia.vn/media/uploads/blog-du-lich/coco-beach-camp-lagi-binh-thuan-trai-nghiem-thien-duong-cam-trai-ven-bien-1-1657466623.jpg') no-repeat center center/cover;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #8b4513; 
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+header h1 {
+    font-size: 3rem;
+    margin: 0;
+}
+
+h2.highlight {
+    color: #0077b6;
+}
+
+nav {
+    background-color: #0077b6;
+    color: white;
+    padding: 10px 20px;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+.intro {
+    text-align: center;
+}
+
+.intro p {
+    font-size: 1.2rem;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.gallery img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.info {
+    display: flex;
+    gap: 20px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
+.info article {
+    flex: 1;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.info article h3 {
+    margin-top: 0;
+    color: #0077b6;
+}
+
+footer {
+    background-color: #0077b6;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.contact {
+    padding: 30px 20px;
+    text-align: center;
+}
+
+.service-table {
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #0077b6;
+    color: white;
+}
+
+td {
+    background: #fff;
+}
+</style>
+</head>
+<body>
+    <header>
+    </header>
+    <nav>
+        <a href="#intro">Giới thiệu</a>
+        <a href="#gallery">Hoạt động</a>
+        <a href="#info">Tổng hợp</a>
+        <a href="#contact">Dịch vụ</a>
+    </nav>
+    <section id="intro" class="intro">
+<h2 class="highlight">Thiên đường giải trí bên biển</h2>
+            <p>Coco Beach Camp là điểm đến lý tưởng cho những ai yêu thích không gian sống động và các hoạt động giải trí trên bãi biển. Với không gian trẻ trung, nhiều màu sắc, nơi đây đã trở thành “thiên đường check-in” của du khách mọi lứa tuổi.</p>
+    </section>
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <h2 class="highlight">Các Hoạt Động Tại Coco Beachcamp</h2>
+
+            <div class="gallery">
+    <div class="gallery-item">
+        <img src="https://lagicityland.vn/wp-content/uploads/2023/08/8888.jpeg" alt="Cắm trại ven biển">
+        <div class="overlay">
+            <h3>Cắm trại ven biển</h3>
+            <p>Lều trại độc đáo và đầy đủ tiện nghi, giúp bạn hòa mình vào thiên nhiên.</p>
+        </div>
+    </div>
+    <div class="gallery-item">
+        <img src="https://tourlagihamtan.com/wp-content/uploads/2023/04/Coco-Lagi-1024x576.jpg" alt="Thể thao và vui chơi">
+        <div class="overlay">
+            <h3>Thể thao và vui chơi</h3>
+            <p>Tham gia các trò chơi như bóng chuyền, lướt ván, chèo kayak...</p>
+        </div>
+    </div>
+    <div class="gallery-item">
+        <img src="https://danangfantasticity.com/wp-content/uploads/2024/05/goi-y-cho-tiec-bbq-thu-7-ben-bo-bien-da-nang-pullman-danang-beach-resort-07-1536x864.jpg" alt="Tiệc BBQ ngoài trời">
+        <div class="overlay">
+            <h3>Tiệc BBQ ngoài trời</h3>
+            <p>Thưởng thức các món nướng thơm ngon cùng bạn bè trong không khí biển mát lành.</p>
+        </div>
+    </div>
+    <div class="gallery-item">
+        <img src="https://tourlagihamtan.com/wp-content/uploads/2023/04/An-gi-khi-den-Coco-Beach-Camp.jpg" alt="Âm nhạc và lễ hội">
+        <div class="overlay">
+            <h3>Âm nhạc và lễ hội</h3>
+            <p>Thường xuyên tổ chức các sự kiện âm nhạc sôi động vào cuối tuần.</p>
+        </div>
+    </div>
+</div>
+    </section>
+    <section id="info" class="info">
+        <article>
+    <h3>Chổ ở</h3>
+    <p>Tại đây sẽ có nhiều hạng phòng để bạn lựa chọn, bạn có thể lựa chọn những căn lều để hoà mình vào thiên nhiên ở ven biển </p>
+        </article>
+        <article>
+            <h3>Hoạt động</h3>
+            <p>Bạn có thể trải nghiệm nhiều điều thú vị trên biển như: đi dạo ven biển, tham gia các trò chơi từ nhẹ nhàng đến mạo hiểm, tổ chức các hoạt động vui chơi tập thể,...</p>
+        </article>
+        <article>
+            <h3>Ăn uống</h3>
+            <p>Hải sản tươi sống, đồ uống,... đều có tại nhà hàng ở đây, bạn có thể lựa chọn dịch vụ ăn uống hoặc tự chế biến đồ ăn cho mình</p>
+        </article>
+    </section>
+   <section id="contact" class="contact">
+    <h2 class="highlight">Bảng Giá Dịch Vụ Coco Beachcamp</h2>
+
+    <table class="service-table">
+        <tr>
+            <th>Dịch Vụ</th>
+            <th>Giá Ngày Thường</th>
+            <th>Giá Cuối Tuần</th>
+        </tr>
+        <tr>
+            <td>Vé vào cổng</td>
+            <td>50.000 vnđ</td>
+            <td>100.000 vnđ</td>
+        </tr>
+        <tr>
+            <td>Lều thường</td>
+            <td>200.000 vnđ/Khách</td>
+            <td>250.000 vnđ/Khách</td>
+        </tr>
+        <tr>
+            <td>Lều Luxury</td>
+            <td>250.000 vnđ/Khách</td>
+            <td>550.000 vnđ/Khách</td>
+        </tr>
+        <tr>
+            <td>Beach Hut A, B, C</td>
+            <td>700.000 vnđ/Khách</td>
+            <td>1.500.000 vnđ/Khách</td>
+        </tr>
+        <tr>
+            <td>Villa 15 khách</td>
+            <td>4.500.000 vnđ/phòng</td>
+            <td>11.250.000 vnđ/phòng</td>
+        </tr>
+        <tr>
+            <td>Rustic Village</td>
+            <td>800.000 vnđ/phòng</td>
+            <td>1.600.000 vnđ/phòng</td>
+        </tr>
+        <tr>
+            <td>Trailer Camping</td>
+            <td>650.000 vnđ/phòng</td>
+            <td>1.300.000 vnđ/phòng</td>
+        </tr>
+        <tr>
+            <td>Bungalow Sea View</td>
+            <td>1.500.000 vnđ/phòng</td>
+            <td>2.400.000 vnđ/phòng</td>
+        </tr>
+    </table>
+</section>
+    <footer>
+        <p>&copy; 2025 Du lịch Bãi biển</p>
+    </footer>
+</body>
+</html>
